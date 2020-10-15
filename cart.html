@@ -1,0 +1,238 @@
+<html lang="en"><link id="jsrunning" rel="flbcjbhgomclbhlchggbmnpekhfeacim">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" type="image/png" href="img/icons/site_logo.png"/>
+        <title>Rose Nest</title>
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" type="text/css" href="bootstrap-4.5.2/css/bootstrap.min.css">
+        
+        <!-- Custom styles for this template -->
+        <link href="css/custom.css" rel="stylesheet">
+    </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top bg-grayl">
+        <a class="navbar-brand" href="landing.html"><img src="img/icons/purple_logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"> <img src="img/icons/menu.png"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav pr-5 mx-auto">
+            <li class="nav-item active ">
+              <a class="nav-link text-purple" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-purple" href="#">About</a>
+            </li>
+          </ul>
+          <div class="hearer_icon d-flex align-items-center">
+            <a href="cart.html">
+              <span class="badge badge-pill badge-primary top-img">2</span>
+                <img src="img/icons/purple_box.png"></i>
+            </a>
+        </div>
+          
+        </div>
+      </nav>
+    </header>
+
+  <!-- Header part end-->
+  <!-- <section class="cart_area section_padding" style="margin-top: 80px;"> -->
+  <div class="container pr-0 pl-0" style="margin-top: 80px;">
+    <div class="cart_inner">
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Cart
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Product</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="row">
+                        <div class="col-md-3">
+                          <img class="col-sm-auto" src="img/probox/box black white fowers angle left.png" alt="" />
+                        </div>
+                        <div class="col-sm">
+                          <p class="d-none d-lg-block">black box, 16 white rose, 20 macron</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <h5>$97</h5>
+                    </td>
+                    <td>
+                      <div class="product_count">
+                        <input class="product_count_item input-number" type="number" value="1" min="1" max="10">
+                      </div>
+                    </td>
+                    <td>
+                      <h5>$720.00</h5>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="row">
+                        <div class="col-md-3">
+                          <img class="col-sm-auto" src="img/probox/ultr-box-white-macron.png" alt="" />
+                        </div>
+                        <div class="col-sm">
+                          <p class="d-none d-lg-block">white box, 16 red rose, 12 choclet</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <h5>$86</h5>
+                    </td>
+                    <td>
+                      <div class="product_count">
+                        <input class="product_count_item input-number" type="number" value="1" min="1" max="10">
+
+                      </div>
+                    </td>
+                    <td>
+                      <h5>$720.00</h5>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <hr>
+              <div class="row">
+                <div class="col-4 my-auto"><a class="btn_1" href="#">Update Cart</a></div>
+                <div class="col-8"><h5 class="float-right">Subtotal $2160.00</h5></div>
+              </div>
+              <hr>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link align-self-center" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                Delivery
+              </button>
+            </h5>
+          </div>
+        
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+            <h5>Address</h5>
+            <p>
+              <input class="post_code" type="text" placeholder="Street address" />
+              <select class="post_code pt-pb">
+                <option value="1">Ottawa</option>
+                <option value="2">Kanata</option>
+                <option value="3">Brahaven</option>
+                <option value="4">Gatineau</option>
+                <option value="5">Aylmer</option>
+                <option value="6">Plateau</option>
+                <option value="7">Other</option>
+              </select>
+              <input class="post_code" type="text" placeholder="postal code" />
+            </p>
+            <h5>Delivery date and time</h5>
+            <p>
+              <input type="date" id="de-date" name="birthday">
+              <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+
+            </p>
+            <div class="checkout_btn_inner float-right">
+              <h5>+ $10</h5>
+            </div>
+            <br>
+            <hr class="featurette-divider">
+            <div>
+              <h5 class="float-right">Subtotal $2170.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link align-self-center" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                Payment
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <h5>Payment</h5>
+              <div class="row ml-1 mb-2">
+                <div class="col"><input class="post_code" type="text" placeholder="Name on card" /></div>
+                <div class="col"><input class="post_code" type="text" placeholder="Card number" /></div>
+              </div>
+              <div class="row ml-1">
+                <div class="col"><input type="date" id="de-date" name="birthday"></div>
+                <div class="col"><input class="post_code" type="text" placeholder="Security number" /></div>
+              </div>
+              <hr class="featurette-divider">
+              <div class="row">
+                <div class="col"><a href="">
+                  <button type="button" class="btn bg-grayl btn-md text-gold">Pay</button>
+                  </a></div>
+                <div class="col-8"><h5 class="float-right">Subtotal $2170.00</h5></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </div>
+    <!-- </section> -->
+  <br>
+  <hr class="featurette-divider">
+  
+      <!--::footer_part start::-->
+      <footer class="container">
+        <div class="card-header text-gold bg-grayl">
+          <div class="row">
+            <div class="col-md-sm">
+              <a class="nav-link text-gold" href="#">Turms & Conditions</a>
+            </div>
+            <div class="col-md">
+              <a class="nav-link text-gold" href="#">FAQ</a>
+            </div>
+          </div>
+          <p class="float-right"><a href="#">Back to top</a></p>
+        <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by <a class="text-gold" href="https://rosenest.com" target="_blank"> Rose Nest </a></p>
+        
+      </div>
+      </footer>
+      <!--::footer_part end::-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- jquery plugins here-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="bootstrap-4.5.2/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

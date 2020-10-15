@@ -1,0 +1,43 @@
+/*//////////////////////////////////////////////////////////////////
+[ Menu ]*/
+.body_main {margin-top: 80px;}
+.bg-grayl {background-color: f1f1f1;}
+.text-purple{color: #b11696;}
+.btn-b-purple{border: 2px solid #b11696;}
+.mrtop{margin-top: 5rem!important;}
+
+.carousel-indicators{
+    list-style: none;              
+    top: 97%;
+}
+.carousel-indicators li, .carousel-indicators li.active{
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    position: relative;
+    margin: 10px;           
+}
+.carousel-indicators img{
+    position: absolute;
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;            
+}
+
+.top-img{
+    background-color: #b11696;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: -3px;
+}
+
+.pt-pb{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {background-color: black;}
+
+@media (max-width: 576px) { .mobile_width{width: 100%};}
